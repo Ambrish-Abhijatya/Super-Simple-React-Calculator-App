@@ -11,5 +11,6 @@
 - CSS Grid
 
 ### Author
-
+- Source  - [Copypasta from WebDevSimplified YouTube channel](https://www.youtube.com/@WebDevSimplified)
+- Video Tutorial Link - [The Perfect Beginner React Project](https://www.youtube.com/watch?v=DgRrrOt0Vr8)
 - Website - [Ambrish Abhijatya](https://github.com/Ambrish-Abhijatya)
