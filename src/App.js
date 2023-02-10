@@ -84,6 +84,8 @@ function reducer(state, { type, payload }) {
         operation: null,
         currentOperand: evaluate(state),
       }
+      default:
+        return state
   }
 }
 
