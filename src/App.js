@@ -54,6 +54,7 @@ function reducer(state, { type, payload }) {
     
     case ACTIONS.CLEAR:
         return {}
+
     case ACTIONS.DELETE_DIGIT:
       if(state.overwrite) {
         return {
@@ -84,8 +85,8 @@ function reducer(state, { type, payload }) {
         operation: null,
         currentOperand: evaluate(state),
       }
-      default:
-        return state
+    default:
+      return state
   }
 }
 
@@ -107,6 +108,8 @@ function evaluate ( {currentOperand, previousOperand, operation}) {
     case '÷':
       computation = prev / current
       break
+    default:
+      break 
   }
 
   return computation.toString()
